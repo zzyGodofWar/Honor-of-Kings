@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.web-background{
+	width:100%;
+	max-width:1920px;
+	min-height:1440px;
+	
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	
+	margin:0 auto;
+	
+	
+	background-color:#e0e0e0;
+	background-repeat:repeat-y;
+	background-size:100%;
+	z-index:-2;
+	
+}
+
+.web-background-cover{
+	width:100%;
+	max-width:1920px;
+	height:1440px;
+	
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+	
+	background-color:rgba(255,255,255,0.75);
+	
+	z-index:-1;
+}
+
+
+.web-title{
+	padding:15px 0 10px;
+	width:90%;
+	max-width:600px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.web-title p{
+	text-align:right;
+}
+
+.web-title a{
+	text-decoration:none;
+	color:#666;
+}
+
+.search-box{
+	width:90%;
+	max-width:800px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.search-box #in-text{
+	vertical-align:middle;
+	border:1px solid black;
+	width:340px;
+	height:30px;
+}
+.search-box #in-text:hover{
+	outline:none;
+	border:1px solid #FFBF00;
+}
+
+.search-box #in-text:focus{
+	outline:none;
+	border:1px solid #00BFFF;
+}
+
+.search-box #btn-text{
+	vertical-align:middle;
+	border:none;
+	background-color:#1E90FF;
+	color:#fff;
+	width:60px;
+	height:30px;
+}
+
+.search-box #btn-text:hover{
+	color:#FFBF00;
+}
+
+.search-box #btn-text:focus{
+	outline:none;
+}
+
+.content-box{
+	margin:30px auto;
+	width:94%;
+	max-width:1360px;
+
+	height:1080px;
+	
+	/* border:1px solid red; */
+	
+}
+
+.showbox{
+	float:left;
+	width:48%;
+	max-width:300px;
+	height:350px;
+	/* border:1px solid black; */
+	margin:10px 1%;
+
+	
+}
+
+.showbox img{
+	width:100%;
+}
+
+.showbox p{
+	font-size:18px;
+	text-align:center;
+	background-color:#a0f0a0;
+}
+
+.showbox .btn-switch{
+	width:50%;
+	height:24px;
+	border:none;
+	color:white;
+	font-size:16px;
+}
+
+.showbox .btn-switch:nth-child(odd){
+	background-color:#ff0a10;
+}
+
+.showbox .btn-switch:nth-child(even){
+	background-color:#10a0ff;
+}
+
+.showbox .btn-switch:focus{
+	outline:none;
+}
+
+.showbox .btn-switch:active{
+	color:black;
+	background-color:white;
+}
